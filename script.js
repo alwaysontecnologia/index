@@ -41,10 +41,13 @@ function setupContactForm() {
     event.preventDefault();
 
     const name = document.getElementById("name").value.trim();
+    const phone = document.getElementById("phone").value.trim();
     const projectType = document.getElementById("projectType").value;
     const message = document.getElementById("message").value.trim();
 
-    const text = `Olá, meu nome é ${name}. Quero falar sobre: ${projectType}. ${message}`;
+    const text = `Olá, meu nome é ${name}. 
+    Telefone: ${phone}.
+    Quero falar sobre: ${projectType}. ${message}`;
     window.open(buildWhatsAppUrl(text), "_blank", "noopener");
   });
 }
