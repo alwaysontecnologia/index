@@ -7,7 +7,7 @@ Site estático completo para empresa de criação de sistemas web, sites e aplic
 Abra o arquivo `script.js` e altere:
 
 ```js
-const WHATSAPP_NUMBER = "5511999999999";
+const WHATSAPP_NUMBER = "5511976990019";
 ```
 
 Use o formato:
