@@ -1,6 +1,6 @@
 // CONFIGURE AQUI O WHATSAPP DA EMPRESA
 // Exemplo: "5511999999999" = Brasil + DDD + número
-const WHATSAPP_NUMBER = "5511999999999";
+const WHATSAPP_NUMBER = "5511976990019";
 
 const DEFAULT_MESSAGE = "Olá, vim pelo site da Always On Tecnologia e quero falar sobre um projeto.";
 
